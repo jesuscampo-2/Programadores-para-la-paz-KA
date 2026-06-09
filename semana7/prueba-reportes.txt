@@ -1,0 +1,20 @@
+Al enviar una petición POST a la ruta /reportes con el siguiente JSON:
+
+{
+  "tipo": "Infraestructura",
+  "descripcion": "Daño en alumbrado público"
+}
+
+El servidor registra la información en el array reportes y devuelve un mensaje de confirmación.
+
+Cuando se consulta la ruta GET /reportes, el sistema muestra todos los reportes almacenados en memoria.
+
+Ejemplo de respuesta:
+
+[
+  {
+    "id": 1,
+    "tipo": "Infraestructura",
+    "descripcion": "Daño en alumbrado público"
+  }
+]
