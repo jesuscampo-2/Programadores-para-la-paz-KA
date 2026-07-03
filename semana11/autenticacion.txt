@@ -1,0 +1,7 @@
+El login es el proceso mediante el cual un usuario se identifica en una aplicación utilizando un nombre de usuario y una contraseña.
+
+La autenticación permite verificar que la persona es quien dice ser antes de acceder al sistema.
+
+Algunas rutas deben estar protegidas porque contienen información privada o funciones administrativas.
+
+No deben exponerse públicamente contraseñas, documentos de identidad, números telefónicos, direcciones, tokens, claves de API ni otros datos sensibles de la comunidad.
