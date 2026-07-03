@@ -1,0 +1,18 @@
+Evento:
+Se registra un nuevo reporte en la plataforma.
+
+Acción:
+n8n detecta el nuevo registro y envía una notificación a Telegram.
+
+Mensaje:
+"Nuevo reporte recibido. Revisar el sistema para más información."
+
+Información que no debe enviarse:
+
+- Nombres completos.
+- Documentos de identidad.
+- Direcciones.
+- Teléfonos.
+- Contraseñas.
+- Tokens.
+- Claves de API.
